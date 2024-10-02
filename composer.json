@@ -1,0 +1,24 @@
+{
+    "name": "fan/transfer",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fan\\transfer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fan\\transfer\\TaiwanDateKitServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Lambert",
+            "email": "gggo833@hotmail.com"
+        }
+    ]
+}
